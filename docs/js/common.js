@@ -17,4 +17,7 @@ $(document).ready(function () {
         }
     });
 
+    $("body").on("click", ".header-more", function(e){
+        $(".header-menu").toggleClass("show");
+    });
 });
