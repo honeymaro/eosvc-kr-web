@@ -594,6 +594,7 @@
     .header {
         height: 48px;
         background-color: rgba(255, 255, 255, .9);
+        overflow-y: visible;
     }
     .header.scrolled {
         height: 48px;
