@@ -276,7 +276,7 @@
         margin: 0 auto;
     }
     .text-subtitle {
-        margin: 0 0 38px;
+        margin: 0 0 46px;
         letter-spacing: .035em;
         font-weight: 700;
         font-size: 1.6em;
@@ -286,7 +286,7 @@
     }
     .text-description {
         /* font-size: 1em; */
-        margin: 0 0 38px;
+        margin: 0 0 46px;
         letter-spacing: .035em;
         font-weight: 300;
         font-size: 1.4em;
@@ -298,9 +298,9 @@
         padding: 20px;
         color: #111a44;
         display: inline-block;
-        padding: 0 0 12px;
-        margin: 0 auto 48px;
-        font-size: 1.4em;
+        padding: 0 0 20px;
+        margin: 0 auto 56px;
+        font-size: 1.6em;
         line-height: 21px;
         letter-spacing: .5px;
         min-width: 300px;
