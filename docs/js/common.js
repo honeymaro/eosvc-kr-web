@@ -7,12 +7,15 @@ $(document).ready(function () {
 
         var contentCenter = $(".content-center");
         for (i = 0; i < contentCenter.length; i++) {
-            if ($($(contentCenter[i]).find("div")[0]).height() + 100 >= $(contentCenter[i]).height()) {
-                $(contentCenter[i]).css("min-height", $(contentCenter[i]).height() + 100);
+            if ($($(contentCenter[i]).find("div")[0]).height() + 200 >= $(contentCenter[i]).height()) {
+                $(contentCenter[i]).css("min-height", $(contentCenter[i]).height() + 200);
             }
         }
     });
     $(window).resize();
+    setTimeout(function () {
+        $(window).resize();
+    }, 3000);
 
     $(window).scroll(function (e) {
         var currentScroll = $(window).scrollTop();
